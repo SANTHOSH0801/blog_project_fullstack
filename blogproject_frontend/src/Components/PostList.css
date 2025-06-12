@@ -1,0 +1,148 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.categories__grid__post {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.breadcrumb__text {
+    margin-bottom: 20px;
+}
+
+.breadcrumb__option a {
+    margin-right: 10px;
+}
+
+.categories__list__post__item {
+    margin-bottom: 30px;
+}
+
+.categories__post__item__pic {
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.post__meta {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+
+.categories__post__item__text {
+    padding: 15px;
+}
+
+.post__label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.sidebar__item {
+    margin-top: 30px;
+}
+
+.sidebar__about__item img {
+    width: 100%;
+    height: auto;
+}
+
+.sidebar__follow__item .sidebar__item__follow__links a {
+    margin-right: 10px;
+}
+
+.sidebar__feature__item__large {
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.sidebar__feature__item__large--text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+
+.sidebar__item__banner img {
+    width: 100%;
+    height: auto;
+}
+
+.sidebar__item__categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar__item__categories li {
+    margin-bottom: 10px;
+}
+
+.sidebar__subscribe__item {
+    margin-top: 30px;
+}
+
+.email-input {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.site-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.site-btn:hover {
+    background-color: #0056b3;
+}
+
+.categories__pagination {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-button {
+    width: 60px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #facc24;
+    border-radius: 6px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color: white;
+}
+
+.page-button:hover {
+    background-color: #facc24;
+    color: white;
+    transform: scale(1.1);
+}
+
+.truncate-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    /* Standard property for compatibility */
+    /* Show only 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

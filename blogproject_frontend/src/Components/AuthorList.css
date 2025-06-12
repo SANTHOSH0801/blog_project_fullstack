@@ -1,0 +1,111 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.categories__grid__post {
+    display: flex;
+    flex-direction: column;
+}
+
+.categories__list__post__item {
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.categories__post__item__pic {
+    position: relative;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px 12px 0 0;
+}
+
+.post__meta {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.post__meta h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.post__meta span {
+    font-size: 14px;
+}
+
+.categories__post__item__text {
+    padding: 1.5rem;
+}
+
+.categories__post__item__text .post__label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #ff5e57;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.categories__post__item__text h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+}
+
+.categories__post__item__text h3 a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.categories__post__item__text h3 a:hover {
+    color: #ff5e57;
+}
+
+.post__widget {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.categories__pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.page-button {
+    padding: 0.5rem 1rem;
+    background: #eee;
+    color: #333;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.page-button:hover {
+    background: #ddd;
+}
+
+.page-button.active {
+    background: #ff5e57;
+    color: white;
+}

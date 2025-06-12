@@ -1,0 +1,22 @@
+# === FRONTEND IGNORE RULES ===
+/frontendblogproject/node_modules/
+/frontendblogproject/.pnp
+/frontendblogproject/.pnp.js
+
+# testing
+/frontendblogproject/coverage
+
+# production
+/frontendblogproject/build
+/frontendblogproject/dist
+
+# misc
+/frontendblogproject/.DS_Store
+/frontendblogproject/.env.local
+/frontendblogproject/.env.development.local
+/frontendblogproject/.env.test.local
+/frontendblogproject/.env.production.local
+
+/frontendblogproject/npm-debug.log*
+/frontendblogproject/yarn-debug.log*
+/frontendblogproject/yarn-error.log*

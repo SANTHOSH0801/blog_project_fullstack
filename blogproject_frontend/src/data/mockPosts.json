@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "The Best Weeknight Baked Potatoes, 3 Creative Ways",
+        "author": "Admin",
+        "date": "2024-08-08T00:00:00Z",
+        "image": "../src/assets/image-5.jpeg",
+        "description": "Quick and easy baked potato recipes with fun twists to enjoy your dinner.",
+        "readTime": "3 min read",
+        "comments": 12
+    },
+    {
+        "id": 2,
+        "title": "Easy Summer Smoothies to Keep You Cool",
+        "author": "Lena",
+        "date": "2024-08-09T00:00:00Z",
+        "image": "https://via.placeholder.com/400x300.png?text=Post+2",
+        "description": "These fruit-packed smoothies are perfect for hot days and healthy living.",
+        "readTime": "2 min read",
+        "comments": 8
+    },
+    {
+        "id": 3,
+        "title": "One-Pot Vegan Pasta with Creamy Sauce",
+        "author": "Chef Raj",
+        "date": "2024-08-10T00:00:00Z",
+        "image": "https://via.placeholder.com/400x300.png?text=Post+3",
+        "description": "Make this easy, delicious vegan pasta in under 30 minutes using one pot.",
+        "readTime": "4 min read",
+        "comments": 15
+    },
+    {
+        "id": 4,
+        "title": "5-Minute Chocolate Mug Cake for Dessert Cravings",
+        "author": "Admin",
+        "date": "2024-08-11T00:00:00Z",
+        "image": "https://via.placeholder.com/400x300.png?text=Post+4",
+        "description": "Indulge instantly with this quick microwave chocolate mug cake recipe.",
+        "readTime": "1 min read",
+        "comments": 9
+    },
+    {
+        "id": 5,
+        "title": "Healthy Breakfast Ideas for Busy Mornings",
+        "author": "Lena",
+        "date": "2024-08-12T00:00:00Z",
+        "image": "https://via.placeholder.com/400x300.png?text=Post+5",
+        "description": "Start your day with these energizing and healthy breakfast recipes.",
+        "readTime": "2 min read",
+        "comments": 5
+    },
+    {
+        "id": 6,
+        "title": "Low-Carb Dinner Recipes for Weight Loss",
+        "author": "Admin",
+        "date": "2024-08-13T00:00:00Z",
+        "image": "https://via.placeholder.com/400x300.png?text=Post+6",
+        "description": "Cut the carbs but keep the flavor with these satisfying dinner recipes.",
+        "readTime": "5 min read",
+        "comments": 10
+    },
+    {
+        "id": 7,
+        "title": "Ultimate Guide to Grilling Vegetables",
+        "author": "Chef Nita",
+        "date": "2024-08-14T00:00:00Z",
+        "image": "https://via.placeholder.com/400x300.png?text=Post+7",
+        "description": "Tips and tricks for perfectly grilled veggies every time.",
+        "readTime": "3 min read",
+        "comments": 7
+    },
+    {
+        "id": 8,
+        "title": "Refreshing Detox Drinks to Cleanse Your Body",
+        "author": "Lena",
+        "date": "2024-08-15T00:00:00Z",
+        "image": "https://via.placeholder.com/400x300.png?text=Post+8",
+        "description": "Hydrate and detox with these simple homemade drink recipes.",
+        "readTime": "2 min read",
+        "comments": 4
+    }
+]

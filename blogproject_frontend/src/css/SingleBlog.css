@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    position: relative;
+}
+
+.header-left,
+.header-center,
+.nav-links {
+    flex: 1;
+}
+
+/* Center image with absolute positioning */
+.header-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image styling */
+.website-name {
+    height: 60px;
+    width: auto;
+}
+
+/* Keep logo on the left */
+.header-left {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    gap: 1rem;
+}
+
+/* Navigation stays aligned right */
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    font-weight: 500;
+    font-size: 1.125rem;
+}

@@ -1,0 +1,130 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    position: relative;
+}
+
+.header-left,
+.header-center,
+.nav-links {
+    flex: 1;
+}
+
+/* Center image with absolute positioning */
+.header-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image styling */
+.website-name {
+    height: 60px;
+    width: auto;
+}
+
+/* Keep logo on the left */
+.header-left {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    gap: 1rem;
+}
+
+/* Navigation stays aligned right */
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+    .main-container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2.5rem 5rem;
+    }
+}
+
+.form-section {
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form-subtitle {
+    color: #718096;
+    margin-bottom: 2.5rem;
+}
+
+.input-field {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 9999px;
+    outline: none;
+    color: black;
+    margin-bottom: 0.75rem;
+}
+
+.input-field:focus {
+    border-color: teal;
+    box-shadow: 0 0 0 2px rgba(0, 128, 128, 0.2);
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #facc24;
+    padding: 0.75rem;
+    font-weight: 600;
+    color: black;
+    border-radius: 9999px;
+    transition: background-color 0.2s;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.error-message {
+    color: red;
+    font-size: 0.85rem;
+    margin-left: 0.5rem;
+    display: block;
+}
+
+.image-section {
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .image-section {
+        width: 50%;
+    }
+}
+
+.signup-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
